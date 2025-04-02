@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lol_rotation_tracker", "lol_rotation_tracker\lol_rotation_tracker.csproj", "{2FCF6F32-60CD-455C-8F24-10E2A7112C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FCF6F32-60CD-455C-8F24-10E2A7112C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCF6F32-60CD-455C-8F24-10E2A7112C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCF6F32-60CD-455C-8F24-10E2A7112C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCF6F32-60CD-455C-8F24-10E2A7112C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66625B70-94FE-49E4-B292-E31FD5A675A7}
+	EndGlobalSection
+EndGlobal
