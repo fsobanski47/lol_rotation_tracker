@@ -63,6 +63,10 @@ namespace lol_rotation_tracker
                 Console.WriteLine($"Skills for {id} already exist in the database.");
                 return;
             }
+            else if (ChampionSkills.Any(s => s.Id == id && s.Version != version))
+            {
+                ChampionSkills.RemoveRange(ChampionSkills.Where(s => s.Id == id && s.Version != version));
+            }
             RiotAPI api = new RiotAPI();
             await api.LoadChampionSkillsAsync(version, id);
             var data = api.SkillData;
